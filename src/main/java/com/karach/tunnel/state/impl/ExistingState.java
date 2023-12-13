@@ -18,6 +18,6 @@ public class ExistingState implements TunnelState {
     public void exit(Tunnel tunnel, Train train) {
         tunnel.getTrains().poll();
         logger.info("Train {} exited Tunnel {}", train.getId(), tunnel.getId());
-        tunnel.setCurrentState(new EnteringState()); // After exiting, switch to the entering state
+        tunnel.setCurrentState(new EnteringState());
     }
 }

@@ -58,7 +58,7 @@ public class TrainSimulator {
             Tunnel tunnel = train.getTunnel();
             if (tunnel != null) {
                 tunnel.enterTunnel(train);
-                Thread.sleep(1000); // Placeholder for simulation logic
+                Thread.sleep(1000);
                 tunnel.exitTunnel(train);
             } else {
                 logger.warn("Train {} cannot find the associated tunnel.", train.getId());
