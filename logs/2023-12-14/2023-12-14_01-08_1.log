@@ -1,0 +1,10 @@
+01:07:06.034 [pool-2-thread-2] INFO  karach.tunnel.state.impl.EnteringState - Train 2 is waiting to enter Tunnel 1
+01:07:07.039 [main] INFO  com.karach.tunnel.main.Main - Tunnel Simulator finished
+01:08:40.867 [main] INFO  com.karach.tunnel.main.Main - Starting the Tunnel Simulator
+01:08:40.879 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 1 cannot find the associated tunnel.
+01:08:40.879 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 2 cannot find the associated tunnel.
+01:08:40.879 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 3 cannot find the associated tunnel.
+01:08:40.879 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 4 cannot find the associated tunnel.
+01:08:40.879 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 5 cannot find the associated tunnel.
+01:08:40.879 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 6 cannot find the associated tunnel.
+01:08:40.879 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 7 cannot find the associated tunnel.

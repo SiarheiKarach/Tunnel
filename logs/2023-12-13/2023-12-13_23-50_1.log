@@ -1,0 +1,11 @@
+23:43:40.424 [main] INFO  com.karach.tunnel.main.Main - Starting the Tunnel Simulator
+23:43:40.435 [main] INFO  com.karach.tunnel.main.Main - Adding tunnels to the simulator
+23:43:40.436 [main] WARN  com.karach.tunnel.simulator.TrainSimulator - Attempted to add a null tunnel to TrainSimulator
+23:43:40.436 [main] INFO  com.karach.tunnel.main.Main - Tunnel Simulator finished
+23:44:42.295 [main] INFO  com.karach.tunnel.main.Main - Starting the Tunnel Simulator
+23:44:42.302 [main] INFO  com.karach.tunnel.main.Main - Adding tunnels to the simulator
+23:44:42.303 [main] WARN  com.karach.tunnel.simulator.TrainSimulator - Attempted to add a null tunnel to TrainSimulator
+23:44:42.303 [main] INFO  com.karach.tunnel.main.Main - Tunnel Simulator finished
+23:50:18.593 [main] INFO  com.karach.tunnel.main.Main - Starting the Tunnel Simulator
+23:50:18.599 [main] INFO  com.karach.tunnel.main.Main - Adding tunnels to the simulator
+23:50:18.599 [main] WARN  com.karach.tunnel.simulator.TrainSimulator - Attempted to add a null tunnel to TrainSimulator

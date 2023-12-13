@@ -1,0 +1,4 @@
+01:08:40.891 [pool-2-thread-7] INFO  karach.tunnel.state.impl.EnteringState - Train 7 is waiting to enter Tunnel 1
+01:08:40.891 [pool-2-thread-4] INFO  karach.tunnel.state.impl.EnteringState - Train 4 is waiting to enter Tunnel 2
+01:08:40.893 [pool-2-thread-5] INFO  karach.tunnel.state.impl.EnteringState - Train 5 is waiting to enter Tunnel 1
+01:08:41.895 [main] INFO  com.karach.tunnel.main.Main - Tunnel Simulator finished

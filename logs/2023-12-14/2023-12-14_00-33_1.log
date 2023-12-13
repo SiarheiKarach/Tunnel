@@ -1,0 +1,11 @@
+00:22:05.578 [pool-2-thread-1] WARN  com.karach.tunnel.main.Main - Train 6 cannot find the associated tunnel.
+00:22:05.578 [pool-2-thread-3] WARN  com.karach.tunnel.main.Main - Train 7 cannot find the associated tunnel.
+00:31:04.422 [main] INFO  com.karach.tunnel.main.Main - Starting the Tunnel Simulator
+00:31:04.428 [main] INFO  com.karach.tunnel.main.Main - Adding tunnels to the simulator
+00:31:04.429 [main] INFO  com.karach.tunnel.main.Main - Tunnel Simulator finished
+00:31:04.437 [pool-2-thread-2] WARN  com.karach.tunnel.main.Main - Train 2 cannot find the associated tunnel.
+00:31:04.437 [pool-2-thread-1] WARN  com.karach.tunnel.main.Main - Train 1 cannot find the associated tunnel.
+00:33:17.224 [main] INFO  com.karach.tunnel.main.Main - Starting the Tunnel Simulator
+00:33:17.232 [main] INFO  com.karach.tunnel.main.Main - Adding tunnels to the simulator
+00:33:17.233 [main] INFO  com.karach.tunnel.main.Main - Tunnel Simulator finished
+00:33:17.241 [pool-2-thread-1] WARN  com.karach.tunnel.main.Main - Train 1 cannot find the associated tunnel.
