@@ -1,0 +1,10 @@
+13:46:51.523 [main] INFO  karach.tunnel.state.impl.EnteringState - Train 3 entered Tunnel 2
+13:46:51.531 [main] INFO  karach.tunnel.state.impl.EnteringState - Train 4 entered Tunnel 2
+13:46:51.531 [main] INFO  karach.tunnel.state.impl.EnteringState - Train 5 entered Tunnel 1
+13:46:51.531 [main] INFO  karach.tunnel.state.impl.EnteringState - Train 6 entered Tunnel 2
+13:46:51.531 [main] INFO  karach.tunnel.state.impl.EnteringState - Train 7 is waiting to enter Tunnel 1
+13:46:51.534 [pool-2-thread-3] INFO  karach.tunnel.state.impl.EnteringState - Train 3 is waiting to enter Tunnel 2
+13:46:51.534 [pool-2-thread-4] INFO  karach.tunnel.state.impl.EnteringState - Train 4 is waiting to enter Tunnel 2
+13:46:51.534 [pool-2-thread-2] INFO  karach.tunnel.state.impl.EnteringState - Train 2 is waiting to enter Tunnel 1
+13:46:51.534 [pool-2-thread-1] INFO  karach.tunnel.state.impl.EnteringState - Train 1 is waiting to enter Tunnel 1
+13:46:51.535 [pool-2-thread-7] INFO  karach.tunnel.state.impl.EnteringState - Train 7 is waiting to enter Tunnel 1

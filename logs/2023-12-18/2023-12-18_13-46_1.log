@@ -1,0 +1,11 @@
+13:44:51.774 [main] INFO  com.karach.tunnel.main.Main - Tunnel Simulator finished
+13:46:51.509 [main] INFO  com.karach.tunnel.main.Main - Starting the Tunnel Simulator
+13:46:51.521 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 1 cannot find the associated tunnel.
+13:46:51.521 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 2 cannot find the associated tunnel.
+13:46:51.521 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 3 cannot find the associated tunnel.
+13:46:51.521 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 4 cannot find the associated tunnel.
+13:46:51.521 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 5 cannot find the associated tunnel.
+13:46:51.521 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 6 cannot find the associated tunnel.
+13:46:51.522 [main] WARN  com.karach.tunnel.parser.TunnelParser - Train 7 cannot find the associated tunnel.
+13:46:51.523 [main] INFO  karach.tunnel.state.impl.EnteringState - Train 1 entered Tunnel 1
+13:46:51.523 [main] INFO  karach.tunnel.state.impl.EnteringState - Train 2 entered Tunnel 1
