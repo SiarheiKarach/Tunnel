@@ -40,11 +40,7 @@ public class Main {
         ExecutorService executorService = Executors.newFixedThreadPool(trains.size());
 
         trains.forEach(train -> executorService.submit(() -> {
-            try {
-                trainSimulator.simulate(train);
-            } catch (InterruptedException e) {
-                logger.error("Error in simulation", e);
-            }
+            trainSimulator.simulate(train);
         }));
 
         executorService.shutdown();

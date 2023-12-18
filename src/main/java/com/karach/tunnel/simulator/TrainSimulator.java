@@ -5,6 +5,7 @@ import com.karach.tunnel.model.Tunnel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -13,12 +14,13 @@ import java.util.Map;
 public class TrainSimulator {
     private static final Logger logger = LogManager.getLogger();
     private static final TrainSimulator instance = new TrainSimulator();
+    private static final int SIMULATION_DURATION_MS = 200;
     private final Map<Integer, Tunnel> tunnels;
-    private final List<Train> trains;
+    private final ArrayDeque<Train> trains;
 
     private TrainSimulator() {
         tunnels = new HashMap<>();
-        trains = new ArrayList<>();
+        trains = new ArrayDeque<>();
     }
 
     public static TrainSimulator getInstance() {
@@ -38,7 +40,7 @@ public class TrainSimulator {
     }
 
     public List<Train> getTrains() {
-        return trains;
+        return new ArrayList<>(trains);
     }
 
     public void addTrain(Train train) {
@@ -53,12 +55,17 @@ public class TrainSimulator {
         }
     }
 
-    public void simulate(Train train) throws InterruptedException {
+    public void simulate(Train train) {
         if (train != null) {
             Tunnel tunnel = train.getTunnel();
             if (tunnel != null) {
                 tunnel.enterTunnel(train);
-                Thread.sleep(1000);
+                try {
+                    Thread.sleep(SIMULATION_DURATION_MS);
+                } catch (InterruptedException e) {
+                    logger.error("Unexpected interruption during simulation", e);
+                    Thread.currentThread().interrupt();
+                }
                 tunnel.exitTunnel(train);
             } else {
                 logger.warn("Train {} cannot find the associated tunnel.", train.getId());

@@ -6,7 +6,7 @@ import com.karach.tunnel.simulator.TrainSimulator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.LinkedList;
+import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.concurrent.Semaphore;
 
@@ -22,8 +22,8 @@ public class Tunnel {
     public Tunnel(int id, int maxCapacity) {
         this.id = id;
         this.maxCapacity = maxCapacity;
-        this.trains = new LinkedList<>();
-        this.semaphore = new Semaphore(1, true);
+        this.trains = new ArrayDeque<>();
+        this.semaphore = new Semaphore(2, true);
         this.currentState = new EnteringState();
 
         TrainSimulator.getInstance().addTunnel(this);
